@@ -74,9 +74,8 @@ You may not gain any extra performance out of this mod, but you will get a lot o
   - [8x] Pin header, 2x20P, female, 1.27mm pitched, double row, SMD - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Pin%20Header/1.27mm%20Pitch/Female%20SMD/info.md)
  
 <img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/725b7665-eebc-48eb-8a09-9cd296d3b2f1"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b441ea16-a727-4f3f-bd0b-2f033d770f22">
-
   
-- EDO RAM chip, 256K X 16 bit. Choices:
+- [8x] EDO RAM chip, 256K X 16 bit. Choices:
   - EliteMT M11B416256A-25J (also compatible with Voodoo 2)
   - Mosel Vitelic V53C16258HK30(or 45)
   - G-Link GLT44016-40J4-12 (or 15)
