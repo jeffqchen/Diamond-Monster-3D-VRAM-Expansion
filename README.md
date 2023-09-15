@@ -1,8 +1,8 @@
 # Diamond Monster 3D 3Dfx Voodoo 1 VRAM Expansion Mod
 
-## Introduction
+<img src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/2f89a707-f807-459f-97b8-f3c880af92d2" width=600>
 
-[IMAGE]
+## Introduction
 
 The Diamond Monster 3D card is a 3Dfx Voodoo 1.
 
@@ -10,11 +10,13 @@ The Voodoo 1 normally comes with 4MB of RAM in total - 2MB for each of the main 
 
 However, according to 3Dfx documentation, these chips support more RAM than just 2MB. Expecially for the FBI, 2MB and 4MB means big differences in capabilities, including higher resolution (800x600x16bit) with hardware-accelerated depth-buffering. Therefore, it makes sense to mod the card for the better.
 
-[IMAGE]
+<img src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/79b56bfa-d721-4157-8559-4019badfd301" width=600>
+
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/93f330f9-7383-4b24-9a43-68d8e4455c12">
 
 Thanks to BitsUndBolts, Voodoo 1 cards with socket-spacing RAM chips can be modded with his [3Dfx Voodoo Memory Mod](https://github.com/BitsUndBolts/3Dfx-Voodoo-Memory-Mod).
 
-[IMAGE]
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b01b0e8b-c419-4c95-bd59-a764ce6469fb">
 
 On the Diamond card, the FBI RAM chips were spaced too close to each others. The TMU chips also appear to be spaced slightly closer than the socketable one. Luckily, pin definition on the 3Dfx chips were the same. So I only had to design a solution to lead the signals off of the main board and interface with expansion RAM modules.
 
@@ -22,11 +24,11 @@ On the Diamond card, the FBI RAM chips were spaced too close to each others. The
 
 ## Design
 
-[IMAGES]
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/6a78ae95-489d-4c7f-a864-04bf8df0e8be">
 
 The adapter boards have castellated holes to solder to the EDO RAM chip footprints on the main board. The female pin header is a 2x20 1.27mm pitched double-row SMD one. I made a cutout for the pin header to be mounted from the bottom of the board. This is to adapt to a more appropreate height, as well as making sure the adapter can't be easily ripped off of the adapter board when installing & removing RAM modules.
 
-[IMAGE]
+chttps://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/472ba2db-8931-4ce2-8bc3-ea0ea687fb51">
 
 The RAM modules are tiny 4-layer PCBs with one EDO RAM chip on each side. The male pin header is a double-row 1.27mm-pitched one. You will need to build a total of eight RAM modules to complete the 8MB build.
 
@@ -38,6 +40,24 @@ This project is created with cost and availability in mind. Both pin headers are
 
 Please be reminded that extra RAM does not bring any significant performance gain to the Voodoo 1 in most use cases. This is a pure functionality expansion, and the performance in that expanded scenario is miserable. There are very good reasons why 3Dfx ended up going with the 2+2 RAM configuration instead of more.
 
+To complete this mod you will be soldering the following number of joints:
+- FBI & TMU Board (2x)
+  - Castellated		(40-4)*4
+  - SMD Headers		40*4
+  - SMD Resistors	2*2
+- RAM Modules (8x)
+  - J-pins		40*2
+  - Pin Headers		40
+- Main Chip Jumpers
+  - Tiny Pin		3
+  - PCB Pads		3
+ 
+Total: 1582
+
+I made about 3 errors out of 1582 pins in my personal attempt.
+
+You will gain almost no extra performance out of this mod. But you will get a lot of practice soldering various types of joints!
+
 BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchmarking the cards before and after the RAM expansion.
 
 -----------
@@ -48,10 +68,15 @@ BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchma
   - [1x] FBI Board - [Link]()
   - [1x] TMU Board - [Link]()
   - [8x] RAM Module Board - [Link]()
+ 
+<img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b8b9205b-0107-44e7-aa3c-269755408aeb"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/1109f469-fe2c-4502-8276-6e1dd250ec52"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/0df5e0c1-fc22-4932-b990-2e1e8559e8a3">
   
 - Pin Headers  
   - [8x] Pin header, 2x20, male, 1.27mm pitched, double row, through hole - [Link]()
   - [8x] Pin header, 2x20, female, 1.27mm pitched, double row, SMD - [Link]()
+ 
+<img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/725b7665-eebc-48eb-8a09-9cd296d3b2f1"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b441ea16-a727-4f3f-bd0b-2f033d770f22">
+
   
 - EDO RAM chip, 256K X 16 bit. Choices:
   - EliteMT M11B416256A-25J (also compatible with Voodoo 2)
@@ -60,7 +85,7 @@ BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchma
   - EtronTech Em614163A-50
   
 - [4x] SMD Resistors, 47 Ohm, imperial 0805 size
-- Very thin wire for extra signals
+- Very thin wire for extra signals. I used 30AWG enameled wire.
 
 -----------
 
