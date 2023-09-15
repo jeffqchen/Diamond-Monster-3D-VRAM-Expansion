@@ -93,6 +93,10 @@ BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchma
 
 ### Diamond Card
 
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/28a0d7db-5df0-41e3-a0df-c2632be3df03">
+
+*Finished preparation on one bank*
+
 Obviously the original RAM chips need to be desoldered from the card.
 
 However, BEFORE doing so, test the card and make sure it runs fine.
@@ -112,13 +116,22 @@ Cut pieces of Kepton tape that are 6mm wide. Put them in the middle of the footp
 ### Adapter Board
 
 #### Cleaning Up Castellated Holes
+
 The adapter boards have many castellated holes. Since the option to prep them costs A LOT of money, I suggest you do the cleaning on your own.
+
+<img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/44d35ac7-a43c-4703-9651-675a875d929a"><img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/05bd24ff-efb5-44a5-8063-da71af1d6b0b">
+
+*Before cleanup*
 
 Start by using a very sharp & pointy tool, such as a pair of sharp tweezers, or a dental pick. Note all the castellated holes are in a state that the extra copper from the via is crushed and pushed into or swept to the sides.
 
 Insert the pointy end of your tool into the center of the via and unfold/expand the hole back, so the extra copper that was supposed to be gone is sticking out side of the PCB. Check carefully and make sure no copper is folded onto the gap between the vias.
 
 Then, using a very sharp blade, cut downwards along the edge of the PCB, to remove all the extra copper.
+
+<img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/d48dc519-559e-4c36-ad26-84ee4f41477e"><img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/50492fda-cd41-4b2a-a8b1-94b161d8124a">
+
+*After cleanup*
 
 Finally, check all vias again and make sure no extra copper is folded into the gap between vias. If small amount of copper is sticking outwards, you can fold it into the via.
 
@@ -132,9 +145,11 @@ Check the connector with a thin needle and make sure all holes are open properly
 
 Insert the pin headers through the slots from the bottom side of the board. Line up the legs with the SMD pads and solder them in. Make sure the connect is all the way in and there's no space between. Don't make big & blobby solder joints, since it will create unnecessary height and jack the board off of the main board.
 
+<img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/349bd380-9dd0-44e0-a8b2-9dc24496b285"><img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/a7b15777-1146-458c-90bc-4211caebdc0d">
+
 Double check all connections with a multimeter and magnifying glass.
 
-**This step must be verified 100% since mistakes in this step will be very difficult to fix once installed.**
+**This step must be verified 100%. Mistakes in this step will be very difficult to fix once the adapter board is installed.**
 
 ### RAM Modules
 
@@ -148,6 +163,9 @@ Lastly, solder in the pin headers with the mating contacts (business end) toward
 
 #### J-Pins Soldering Tips
 
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/c54c0f3d-772b-4f65-bbd3-5fd0f7dcc317">
+
+
 - Jam the tip of your iron into the corner where the J-pin and the pad meets. Make sure the tip touches both of them
 - Add sufficient solder from the side.
 - Pull tip away/out along the SMD pad
@@ -157,12 +175,13 @@ Lastly, solder in the pin headers with the mating contacts (business end) toward
 - Place male header over a female header.
 - Push the male header into the female with the holes on a RAM module PCB
 
+The following technique will make sure the pins are soldered straight. Otherwise rows of pins might buckle under heat and the row spacing becoming too tight.
 
-- Solder the header onto the populated RAM module PCB
-  - Start by soldering two ends of the headers first. Adjust if it looks crooked from the side
-  - Drag solder all pins in with the help of flux.
-  - The pin headers take a lot of solder. Be prepared to feed a lot.
-  - Drag any excessive solder to the end with the help of flux, and wick off any that's left from the end.
+- Start by soldering pins on two ends of the headers first. Adjust if it looks crooked from the side
+- Drag solder all pins in with the help of flux.
+- The pin headers take a lot of solder. Be prepared to feed a lot.
+- Drag any excessive solder to the end with the help of flux, and wick off any that's left from the end.
+- Remove the female header with finger nails from the two ends instead of the sides. When the gaps is big enough, use a ruler instead since it's easier.
 
 -----------
 
@@ -175,6 +194,8 @@ Line up the adapter board with the RAM chip footprints on the card. Make sure ev
 Tack down diagonal pins on the out-most edges. Then start soldering the pins one by one with some amounts of solder (they need quite a bit more than you would think). Make sure all joints appear full and healthy.
 
 #### Castellated Holes Soldering Tip
+
+<img width="300" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/57a5ab40-a3e0-4a25-9b84-a26413d2111e"><img width="300" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b3d057e4-a2b7-4e1d-a1ae-ad56ffb37a3d"><img width="300" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/5b202a6d-6e22-43a3-b3ac-ff73b4b771f8">
 
 Insert the tip of your iron in between the via and the pad. Make sure both are being heated.
 
@@ -190,7 +211,19 @@ The 1.27mm pitch may sound tight but they actually don't tend to bridge easily.
 
 Extra pins have to be soldered to the respective pads on the adapter boards.
 
-Pin location shown as in the pictures
+FBI Pin 180 & 199:
+
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/10bd17cc-03d2-4370-83c3-bb03dd7c5495">
+
+TMU Pin 130:
+
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/a900492e-e65c-47ec-98c1-8905765aefd8">
+
+Pin location marked with green dots in the pictures.
+
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b99e9b84-2407-4c7a-b0ed-65d2043a7856">
+
+After finishing, tack down the floating wires with tape.
 
 #### Soldering tip
 
