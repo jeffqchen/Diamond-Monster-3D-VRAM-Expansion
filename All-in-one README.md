@@ -54,7 +54,7 @@ To complete this mod you will be soldering the following number of joints:
   - Tiny Bodge Wires: 3
   - PCB Pads: 3
  
-Total: 1582 (I made about 3 errors in my personal attempt)
+Total: 1582 (I made about 3 mistakes in my personal attempt)
 
 You may not gain any extra performance out of this mod, but you will get a lot of practice soldering various types of joints!🤡
 
