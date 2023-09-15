@@ -172,7 +172,7 @@ Lastly, solder in the pin headers with the mating contacts (business end) toward
 
 #### Pin Header Soldering Tips
 
-- Place male header over a female header.
+- Place male header over an unused female header.
 - Push the male header into the female with the holes on a RAM module PCB
 
 The following technique will make sure the pins are soldered straight. Otherwise rows of pins might buckle under heat and the row spacing becoming too tight.
