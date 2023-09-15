@@ -18,7 +18,7 @@ Thanks to BitsUndBolts, Voodoo 1 cards with socket-spacing RAM chips can be modd
 
 <img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b01b0e8b-c419-4c95-bd59-a764ce6469fb">
 
-On the Diamond card, the FBI RAM chips were spaced too close to each others. The TMU chips also appear to be spaced slightly closer than the socketable one. Luckily, pin definition on the 3Dfx chips were the same. So I only had to design a solution to lead the signals off of the main board and interface with expansion RAM modules.
+However, on the Diamond card, the FBI RAM chips were spaced too close to each others. The TMU chips also appear to be spaced slightly closer than the socketable one. Luckily, pin definition on the 3Dfx chips were the same. So I only had to design a solution to lead the signals off of the main board and interface with expansion RAM modules.
 
 -----------
 
