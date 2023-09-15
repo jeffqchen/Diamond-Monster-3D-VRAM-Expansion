@@ -28,7 +28,7 @@ On the Diamond card, the FBI RAM chips were spaced too close to each others. The
 
 The adapter boards have castellated holes to solder to the EDO RAM chip footprints on the main board. The female pin header is a 2x20 1.27mm pitched double-row SMD one. I made a cutout for the pin header to be mounted from the bottom of the board. This is to adapt to a more appropreate height, as well as making sure the adapter can't be easily ripped off of the adapter board when installing & removing RAM modules.
 
-chttps://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/472ba2db-8931-4ce2-8bc3-ea0ea687fb51">
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/472ba2db-8931-4ce2-8bc3-ea0ea687fb51">
 
 The RAM modules are tiny 4-layer PCBs with one EDO RAM chip on each side. The male pin header is a double-row 1.27mm-pitched one. You will need to build a total of eight RAM modules to complete the 8MB build.
 
