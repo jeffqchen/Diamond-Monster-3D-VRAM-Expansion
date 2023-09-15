@@ -13,11 +13,11 @@ However, according to 3Dfx documentation, these chips support more than just 2MB
 <img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b9e3a63d-7545-4824-a635-5ae9f32bf702">
 <img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/50cbfa79-5bbe-4bea-9335-59f1620a4164">
 
-However, the Diamond card has a tight chip spacing and his mod doesn't work on this card. Therefore I had to create this specific one on my own.
+However, the Diamond card has a tight chip spacing and his mod can't work on this card. Therefore I had to create this specific one on my own.
 
 The All-in-one long version of the instructions is in [All-in-one README.md](./All-in-one%20README.md).
 
-I've also broken it up into different pages in the [Wiki](https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/wiki) for the ease of navigation.
+I've also broken it up into separate pages in the [Wiki](https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/wiki) for the ease of navigation.
 
 -----------
 
