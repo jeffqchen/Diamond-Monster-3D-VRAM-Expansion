@@ -1,6 +1,6 @@
 # Diamond Monster 3D 3Dfx Voodoo 1 VRAM Expansion Mod
-
-<img src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/2f89a707-f807-459f-97b8-f3c880af92d2" width=600>
+<img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b9e3a63d-7545-4824-a635-5ae9f32bf702">
+<img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/50cbfa79-5bbe-4bea-9335-59f1620a4164">
 
 ## Introduction
 
@@ -239,11 +239,13 @@ Join the wire to the pin with your iron. A simple tap should do the job. Do NOT 
 
 The easiest step.
 
+<img src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/2f89a707-f807-459f-97b8-f3c880af92d2" width=600>
+
 Make sure the entire bank are of the same kind of chips. Mixing chips will introduce issues.
 
 If the pin header does not want to go in, check the male pins first. Do not force it.
 
-For the FBI bank, adding modules from right to left make it easier.
+For the FBI bank, adding modules from right to left makes it easier.
 
 -----------
 
@@ -251,9 +253,15 @@ For the FBI bank, adding modules from right to left make it easier.
 
 Run the 3Dfx diagnostic utility called mojo. You should be seeing 4MB for both FBI and TMU.
 
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/dd535914-aa7c-41c7-bd00-6a2ab26eca71">
+
 The Diamond official driver info page does not reflect the actual amount of RAM and always shows 2MB and 2MB.
 
 Run Unreal in Glide mode and set the resolution to 800x600. The game should run. If you see glitches, it's possible you are having some bad solder joints, or you might have overclocked the chip too much.
+
+<img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/a13a1532-ef12-4b11-a9e9-1db412ed7cd0">
+<img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/7c9ee2d7-890a-42d6-8577-ad2de4d80394">
+
 
 ### Over-Clocking
 
@@ -262,6 +270,8 @@ The Diamond driver has that one slider that toggles between the stock 50MHz and 
 I have noticed that an 8MB card can't run at the full 57MHz anymore. However it runs fine at 55MHz with heatsinks on the main chips.
 
 ### Heat
+
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/617190f5-6410-4a5f-bb30-a16630819d96">
 
 I have the impression that the main chips generate more heat with more RAM installed. The TMU is the hottest and the attached heatsink reaches 58ºC under load at 55MHz. This is no joke and I suggest adding a heatsink and maybe even active cooling options such as an extra fan towards the heatsink.
 
