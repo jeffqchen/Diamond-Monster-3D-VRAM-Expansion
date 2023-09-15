@@ -26,7 +26,7 @@ However, on the Diamond card, the FBI RAM chips were spaced too close to each ot
 
 <img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/6a78ae95-489d-4c7f-a864-04bf8df0e8be">
 
-The adapter boards have castellated holes to solder to the EDO RAM chip footprints on the main board. The female pin header is a 2x20 1.27mm pitched double-row SMD one. I made a cutout for the pin header to be mounted from the bottom of the board. This is to adapt to a more appropreate height, as well as making sure the adapter can't be easily ripped off of the adapter board when installing & removing RAM modules.
+The adapter boards have castellated holes to solder to the EDO RAM chip footprints on the main board. The female pin header is a 2x20 1.27mm pitched double-row SMD one. I made a cutout for the pin header to be mounted from the bottom of the board. This is to adapt to a more appropriate height, as well as making sure the adapter can't be easily ripped off of the adapter board when installing & removing RAM modules.
 
 <img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/472ba2db-8931-4ce2-8bc3-ea0ea687fb51">
 
