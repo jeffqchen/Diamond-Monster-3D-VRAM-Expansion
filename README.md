@@ -132,10 +132,6 @@ Then, using a very sharp blade, cut downwards along the edge of the PCB, to remo
 
 Finally, check all vias again and make sure no extra copper is folded into the gap between vias. If small amount of copper is sticking outwards, you can fold it into the via.
 
-#### Solder On Signal Attenuation Resistors
-
-Solder on the 47 Ohm resistor onto the adapter boards. Don't screw this one up.
-
 #### Solder On Female Pin Headers
 
 Check the connector with a thin needle and make sure all holes are open properly (you never know...)
@@ -147,6 +143,10 @@ Insert the pin headers through the slots from the bottom side of the board. Line
 Double check all connections with a multimeter and magnifying glass.
 
 **This step must be verified 100%. Mistakes in this step will be very difficult to fix once the adapter board is installed.**
+
+#### Solder On Signal Attenuation Resistors
+
+Solder on the 47 Ohm resistor onto the adapter boards. Don't screw this easy one up.
 
 ### RAM Modules
 
