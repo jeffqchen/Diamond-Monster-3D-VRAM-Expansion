@@ -8,7 +8,7 @@ The Diamond Monster 3D card is a 3Dfx Voodoo 1.
 
 The Voodoo 1 normally comes with 4MB of RAM in total - 2MB for each of the main chip on the card - FBI (frame buffer interface) and TMU (texture mapping unit).
 
-However, according to 3Dfx documentation, these chips support more RAM than just 2MB. Expecially for the FBI, 2MB and 4MB means big differences in capabilities, including higher resolution (800x600x16bit) with hardware-accelerated depth-buffering. Therefore, it makes sense to mod the card for the better.
+However, according to 3Dfx documentation, these chips support more than just 2MB of RAM. Expecially for the FBI, 2MB and 4MB means differences in capabilities, including higher resolution (800x600x16bit) with hardware-accelerated depth-buffering. Therefore, it makes sense to mod the card for the better.
 
 <img src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/79b56bfa-d721-4157-8559-4019badfd301" width=600>
 
