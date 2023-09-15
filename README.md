@@ -253,7 +253,7 @@ For the FBI bank, adding modules from right to left makes it easier.
 
 Run the 3Dfx diagnostic utility called mojo. You should be seeing 4MB for both FBI and TMU.
 
-<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/dd535914-aa7c-41c7-bd00-6a2ab26eca71">
+<img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/1d5682b0-088e-4667-9519-941fd5b70016">
 
 The Diamond official driver info page does not reflect the actual amount of RAM and always shows 2MB and 2MB.
 
@@ -261,7 +261,6 @@ Run Unreal in Glide mode and set the resolution to 800x600. The game should run.
 
 <img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/a13a1532-ef12-4b11-a9e9-1db412ed7cd0">
 <img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/7c9ee2d7-890a-42d6-8577-ad2de4d80394">
-
 
 ### Over-Clocking
 
