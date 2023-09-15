@@ -71,9 +71,9 @@ BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchma
  
 <img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b8b9205b-0107-44e7-aa3c-269755408aeb"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/1109f469-fe2c-4502-8276-6e1dd250ec52"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/0df5e0c1-fc22-4932-b990-2e1e8559e8a3">
   
-- Pin Headers  
-  - [8x] Pin header, 2x20, male, 1.27mm pitched, double row, through hole - [Link]()
-  - [8x] Pin header, 2x20, female, 1.27mm pitched, double row, SMD - [Link]()
+- Pin Headers
+  - [8x] Pin header, 2x20P, male, 1.27mm pitched, double row, through hole - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Pin%20Header/1.27mm%20Pitch/Male%20Straight/info.md)
+  - [8x] Pin header, 2x20P, female, 1.27mm pitched, double row, SMD - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Pin%20Header/1.27mm%20Pitch/Female%20SMD/info.md)
  
 <img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/725b7665-eebc-48eb-8a09-9cd296d3b2f1"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b441ea16-a727-4f3f-bd0b-2f033d770f22">
 
