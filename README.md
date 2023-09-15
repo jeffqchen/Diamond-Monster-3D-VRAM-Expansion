@@ -110,6 +110,8 @@ Clean up the board with IPA.
 
 Cut pieces of Kepton tape that are 6mm wide. Put them in the middle of the footprints where the female pin header would sit on. If your tape is too wide, cut a long piece and then use a ruler to cut the entire length to the width you want, instead of doing it piece by piece.
 
+---------
+
 ### Adapter Board
 
 #### Cleaning Up Castellated Holes
@@ -148,6 +150,8 @@ Double check all connections with a multimeter and magnifying glass.
 
 Solder on the 47 Ohm resistor onto the adapter boards. Don't screw this easy one up.
 
+---------
+
 ### RAM Modules
 
 Solder on the RAM chips first. Note the orientation on the silk screen. The pin 1 end is marked with a dot or a white line.
@@ -161,7 +165,6 @@ Lastly, solder in the pin headers with the mating contacts (business end) toward
 #### J-Pins Soldering Tips
 
 <img width="600" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/c54c0f3d-772b-4f65-bbd3-5fd0f7dcc317">
-
 
 - Jam the tip of your iron into the corner where the J-pin and the pad meets. Make sure the tip touches both of them
 - Add sufficient solder from the side.
@@ -204,6 +207,8 @@ If the joint appears to be disconnected or not full, repeat the entire action an
 
 The 1.27mm pitch may sound tight but they actually don't tend to bridge easily.
 
+---------
+
 ### Soldering FBI/TMU Pins To Adapter Boards
 
 Extra pins have to be soldered to the respective pads on the adapter boards.
@@ -231,6 +236,8 @@ Add the tiniest amount of solder to your iron tip, then transfer it to the pin w
 Tin the tip of the copper wire with solder, but make sure there is no solder blob on the wire.
 
 Join the wire to the pin with your iron. A simple tap should do the job. Do NOT rub the pin & wire sideways since you might bend the pin.
+
+---------
 
 ### Insert RAM Modules
 
