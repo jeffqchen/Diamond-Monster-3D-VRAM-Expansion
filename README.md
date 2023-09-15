@@ -36,21 +36,21 @@ This project is created with cost and availability in mind. Both pin headers are
 
 -----------
 
-## Justification
+## Justification (or the lack of it)
 
 Please be reminded that extra RAM does not bring any significant performance gain to the Voodoo 1 in most use cases. This is a pure functionality expansion, and the performance in that expanded scenario is miserable. There are very good reasons why 3Dfx ended up going with the 2+2 RAM configuration instead of more.
 
 To complete this mod you will be soldering the following number of joints:
 - FBI & TMU Board (2x)
-  - Castellated		(40-4)*4
-  - SMD Headers		40*4
-  - SMD Resistors	2*2
+  - Castellated Holes: (40-4)*4
+  - SMD Headers: 40*4
+  - SMD Resistors:2*2
 - RAM Modules (8x)
-  - J-pins		40*2
-  - Pin Headers		40
+  - J-pins: 40*2
+  - Pin Headers: 40
 - Main Chip Jumpers
-  - Tiny Pin		3
-  - PCB Pads		3
+  - Tiny Bodge Wires: 3
+  - PCB Pads: 3
  
 Total: 1582
 
