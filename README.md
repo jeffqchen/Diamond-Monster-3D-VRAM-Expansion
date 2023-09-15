@@ -40,6 +40,8 @@ This project is created with cost and availability in mind. Both pin headers are
 
 Please be reminded that extra RAM does not bring any significant performance gain to the Voodoo 1 in most use cases. This is a pure functionality expansion, and the performance in that expanded scenario is miserable. There are very good reasons why 3Dfx ended up going with the 2+2 RAM configuration instead of more.
 
+BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchmarking the cards before and after the RAM expansion.
+
 To complete this mod you will be soldering the following number of joints:
 - FBI & TMU Board (2x)
   - Castellated Holes: (40-4)*4
@@ -52,13 +54,9 @@ To complete this mod you will be soldering the following number of joints:
   - Tiny Bodge Wires: 3
   - PCB Pads: 3
  
-Total: 1582
+Total: 1582 (I made about 3 errors in my personal attempt)
 
-I made about 3 errors out of 1582 pins in my personal attempt.
-
-You will gain almost no extra performance out of this mod. But you will get a lot of practice soldering various types of joints!
-
-BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchmarking the cards before and after the RAM expansion.
+You may not gain any extra performance out of this mod, but you will get a lot of practice soldering various types of joints!🤡
 
 -----------
 
