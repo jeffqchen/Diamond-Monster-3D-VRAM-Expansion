@@ -65,9 +65,9 @@ BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchma
 ## Parts
 
 - PCB (Gerber files provided)
-  - [1x] FBI Board - [Link]()
-  - [1x] TMU Board - [Link]()
-  - [8x] RAM Module Board - [Link]()
+  - [1x] FBI Board - [Link](./KiCAD/FBI%20Board/gerbers/FBI%20Board.zip)
+  - [1x] TMU Board - [Link](./KiCAD/TMU%20Board/gerbers/TMU%20Board.zip)
+  - [8x] RAM Module Board - [Link](./KiCAD/RAM%20Module/gerbers/RAM%20Module.zip)
  
 <img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b8b9205b-0107-44e7-aa3c-269755408aeb"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/1109f469-fe2c-4502-8276-6e1dd250ec52"><img height="160" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/0df5e0c1-fc22-4932-b990-2e1e8559e8a3">
   
