@@ -26,11 +26,19 @@ On the Diamond card, the FBI RAM chips were spaced too close to each others. The
 
 The adapter boards have castellated holes to solder to the EDO RAM chip footprints on the main board. The female pin header is a 2x20 1.27mm pitched double-row SMD one. I made a cutout for the pin header to be mounted from the bottom of the board. This is to adapt to a more appropreate height, as well as making sure the adapter can't be easily ripped off of the adapter board when installing & removing RAM modules.
 
-[IMAGES]
+[IMAGE]
 
 The RAM modules are tiny 4-layer PCBs with one EDO RAM chip on each side. The male pin header is a double-row 1.27mm-pitched one. You will need to build a total of eight RAM modules to complete the 8MB build.
 
 This project is created with cost and availability in mind. Both pin headers are very common and cheap. The PCBs are relatively cheap to order. The EDO RAM chips are consistently in stock on eBay.
+
+-----------
+
+## Justification
+
+Please be reminded that extra RAM does not bring any significant performance gain to the Voodoo 1 in most use cases. This is a pure functionality expansion, and the performance in that expanded scenario is miserable. There are very good reasons why 3Dfx ended up going with the 2+2 RAM configuration instead of more.
+
+BitsUndBolts [made a video](https://www.youtube.com/watch?v=zTUwuydDcZQ) benchmarking the cards before and after the RAM expansion.
 
 -----------
 
@@ -40,14 +48,17 @@ This project is created with cost and availability in mind. Both pin headers are
   - [1x] FBI Board - [Link]()
   - [1x] TMU Board - [Link]()
   - [8x] RAM Module Board - [Link]()
+  
 - Pin Headers  
   - [8x] Pin header, 2x20, male, 1.27mm pitched, double row, through hole - [Link]()
   - [8x] Pin header, 2x20, female, 1.27mm pitched, double row, SMD - [Link]()
+  
 - EDO RAM chip, 256K X 16 bit. Choices:
   - EliteMT M11B416256A-25J (also compatible with Voodoo 2)
   - Mosel Vitelic V53C16258HK30(or 45)
   - G-Link GLT44016-40J4-12 (or 15)
   - EtronTech Em614163A-50
+  
 - [4x] SMD Resistors, 47 Ohm, imperial 0805 size
 - Very thin wire for extra signals
 
@@ -203,3 +214,16 @@ I have the impression that the main chips generate more heat with more RAM insta
 BitsUndBolts
 - [Twitter](https://twitter.com/BitsUndBolts)
 - [YouTube](https://www.youtube.com/@bitsundbolts/)
+
+-----------
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
