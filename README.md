@@ -21,6 +21,16 @@ I've also broken it up into separate pages in the [Wiki](https://github.com/jeff
 
 -----------
 
+# 3D Printed Armor
+
+I designed a 3D printed armor set for this video card. It offers support for the out-most modules of the VRAM modules, which tend to sag due to the lack of support.
+
+<img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/003f7a6d-f457-4982-9ad5-fdbab64a4796"> <img width="400" src="https://github.com/jeffqchen/Diamond-Monster-3D-VRAM-Expansion/assets/25773768/b8def20c-927d-443d-99ab-2bb0ad2ad2de">
+
+Link: [Printables Page](https://www.printables.com/model/723624)
+
+-----------
+
 # Special Thanks
 
 BitsUndBolts
